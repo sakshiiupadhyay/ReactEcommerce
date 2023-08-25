@@ -5,6 +5,7 @@ import img2 from '../components/img2.jpg'
 import img3 from '../components/img3.jpg'
 import img4 from '../components/img4.webp'
 import img5 from '../components/background.jpg';
+import img10 from '../components/img10.jpg'
 
 
 
@@ -24,7 +25,7 @@ export default function About() {
 
       <section class="m-4 md:m-8 mt-10 md:mt-20 flex flex-col md:flex-row">
   <div class="md:w-1/2">
-    <img class="w-full" src="/images/img1.jpg" alt="" />
+    <img class="w-full" src={img10} alt="" />
   </div>
   <div class="md:w-1/2 max-w-screen-xl mx-auto p-6">
     <h3 class="text-2xl md:text-5xl font-bold text-center mt-2">Who We Are</h3>
